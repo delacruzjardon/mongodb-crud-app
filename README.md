@@ -5,15 +5,11 @@ A full-stack web application built with Go, MongoDB, and Bootstrap that provides
 ## 🚀 Features
 
 - **Complete CRUD Operations**: Create, read, update, and delete users with full validation
-- **Advanced Search**: Real-time search functionality with autocomplete and suggestions
-- **Secure Authentication**: SCRAM-SHA compatible password encryption using bcrypt
 - **Timestamp Tracking**: Automatic creation and update timestamps for audit trails
 - **Email Validation**: Multi-level email format validation (client and server-side)
 - **Responsive Design**: Bootstrap 5-based UI that works seamlessly on desktop and mobile
 - **REST API**: JSON endpoints for programmatic access
-- **Real-time Validation**: Client-side form validation with immediate visual feedback
-- **Password Security**: Strong password requirements with secure hashing
-- **Search Suggestions**: Smart search with typo correction and domain suggestions
+
 
 ## 🛠 Technology Stack
 
@@ -24,7 +20,6 @@ A full-stack web application built with Go, MongoDB, and Bootstrap that provides
 | **Web Framework** | Gorilla Mux |
 | **Frontend** | HTML5, CSS3, JavaScript ES6+ |
 | **UI Framework** | Bootstrap 5 |
-| **Password Encryption** | bcrypt, scrypt |
 | **Authentication** | SCRAM-SHA-256 |
 | **Icons** | Bootstrap Icons |
 
