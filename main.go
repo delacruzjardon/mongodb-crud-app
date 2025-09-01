@@ -19,7 +19,7 @@ func main() {
 	defer cancel()
 
 	// Replace with your MongoDB connection string
-	clientOptions := options.Client().ApplyURI("mongodb+srv://admin:passwordone@cluster0.r1nn65n.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+	clientOptions := options.Client().ApplyURI("mongodb+srv://admin:xxxxxxx@xxxx.xxxx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 	client, err := mongo.Connect(ctx, clientOptions)
 	if err != nil {
 		log.Fatal(err)
