@@ -1,0 +1,87 @@
+body {  
+    background-color: #f8f9fa;  
+}  
+  
+.table {  
+    background-color: white;  
+    border-radius: 8px;  
+    overflow: hidden;  
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);  
+}  
+  
+.btn {  
+    margin-right: 5px;  
+}  
+  
+.form-control:focus {  
+    border-color: #0d6efd;  
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);  
+}  
+  
+.navbar-brand {  
+    font-weight: bold;  
+}  
+  
+.container {  
+    max-width: 1200px;  
+}  
+  
+/* Search-specific styles */  
+.search-suggestions {  
+    position: absolute;  
+    background: white;  
+    border: 1px solid #ddd;  
+    border-radius: 4px;  
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);  
+    max-height: 200px;  
+    overflow-y: auto;  
+    z-index: 1000;  
+}  
+  
+.search-suggestion-item {  
+    padding: 8px 12px;  
+    cursor: pointer;  
+    border-bottom: 1px solid #eee;  
+    transition: background-color 0.2s;  
+}  
+  
+.search-suggestion-item:hover {  
+    background-color: #f8f9fa;  
+}  
+  
+.search-suggestion-item:last-child {  
+    border-bottom: none;  
+}  
+  
+/* Highlight search terms */  
+.search-highlight {  
+    background-color: yellow;  
+    font-weight: bold;  
+}  
+  
+/* Search form styling */  
+.search-form {  
+    position: relative;  
+}  
+  
+.search-input {  
+    transition: all 0.3s ease;  
+}  
+  
+.search-input:focus {  
+    transform: scale(1.02);  
+}  
+  
+/* Loading indicator */  
+.search-loading {  
+    position: absolute;  
+    right: 10px;  
+    top: 50%;  
+    transform: translateY(-50%);  
+    opacity: 0;  
+    transition: opacity 0.3s;  
+}  
+  
+.search-loading.show {  
+    opacity: 1;  
+}  
