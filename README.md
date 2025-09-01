@@ -98,9 +98,6 @@ mongodb-crud-app/
 │   └── 📄 user.go              # User data model & structures
 ├── 📁 handlers/
 │   └── 📄 user_handlers.go     # HTTP handlers for all CRUD operations
-├── 📁 utils/
-│   ├── 📄 password.go          # Password encryption & validation utilities
-│   └── 📄 validation.go        # Email & input validation utilities
 ├── 📁 templates/
 │   ├── 📄 layout.html          # Base HTML template with navigation
 │   ├── 📄 index.html           # Home page with user listing
